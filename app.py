@@ -11,6 +11,7 @@ from diffusers import (
 )
 
 from transformers import CLIPModel, CLIPProcessor
+pip uninstall -y torch torchvision diffusers transformers accelerate xformers
 
 
 # ---------------------------
@@ -125,3 +126,4 @@ with gr.Blocks() as demo:
     )
 
 demo.launch()
+
