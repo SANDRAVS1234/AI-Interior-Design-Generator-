@@ -1,0 +1,21 @@
+# Use PyTorch CUDA 11.8 build (T4 compatible)
+torch==2.1.0+cu118
+torchvision==0.16.0+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Stable Diffusers stack
+diffusers==0.25.0
+transformers==4.36.2
+accelerate==0.25.0
+safetensors
+
+# Xformers (pre-built wheel that works on T4)
+xformers==0.0.22.post7
+
+# Vision + utilities
+opencv-python
+Pillow
+numpy
+
+# Web UI
+gradio==4.12.0
