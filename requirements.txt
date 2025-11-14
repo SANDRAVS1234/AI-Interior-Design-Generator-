@@ -1,22 +1,12 @@
-# PyTorch CUDA 11.8 (works on T4 GPU)
-torch==2.5.0+cu118
---extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.2.1
+torchvision==0.17.1
 
-# Torchvision (compatible with torch 2.5.x)
-torchvision==0.24.0
-
-# Diffusers stack
 diffusers==0.25.0
 transformers==4.36.2
 accelerate==0.25.0
 safetensors
 
-# Vision + utilities
 opencv-python
-Pillow
 numpy
-
-# Web UI
+Pillow
 gradio==4.12.0
-
-# Remove xformers (conflicts with 2.5.x)
